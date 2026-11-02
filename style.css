@@ -1,0 +1,244 @@
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    color: black
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2c2828;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    list-style: none;
+    font-size: 30px;
+    margin-right: 50px;
+    top: 0;
+
+}
+
+.overMijBtn:hover  {
+    color: brown
+}
+
+.overMijBtn{
+    color: black;
+}
+
+
+
+.mijnProjectenBtn:hover{
+    color: brown;
+}
+
+.mijnProjectenBtn{
+    color: black;
+}
+
+
+.mijnSkillsSchoolBtn:hover{
+    color: brown
+}
+
+.mijnSkillsSchoolBtn{
+    color: black
+}
+
+.komInContactBtn:hover{
+    color: brown;
+}
+
+.komInContactBtn{
+    color: black;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.hero {
+    padding-top: 250px;
+    height: 100vh;
+    width: 98vw;
+}
+
+.overMij{
+    margin-left: 75px;
+    margin-top: 0px;
+}
+
+.Titel-overMij{
+    font-size: 30px;
+}
+
+
+.Tekst-overMij{
+    width: 45vw;
+    font-size: 20px;
+}
+
+
+
+.hero-container {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+
+
+
+}
+
+.p1 {
+    font-size: 30px;
+}
+
+.p2 {
+    font-size: 45px;
+}
+
+.ImgHomepage {
+    border-radius: 120px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.socials a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socials img{
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.overMij img{
+    position: absolute;
+    margin-top: -625px;
+    margin-left: 1000px;
+}
+
+
+
+
+.titel-mijnProjecten{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+    font-size: 55px;
+}
+
+.mijnProjecten{
+    min-height: 100vh;
+    padding: 50px 10%;
+}
+
+.projecten-container{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #444;
+    border-radius: 12px;
+}
+
+.skills-titel{
+    margin-left: 400px;
+    font-size: 30px
+
+}
+
+.opleiding-titel{
+    margin-left: 1250px;
+    margin-top: -420px;
+    font-size: 30px;
+    
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 20px;
+}
+
+.skillbox {
+    height: 140px;
+    width: 500px;
+    background-color: #666;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.opleiding-tekst{
+    width: 25vw;
+    margin-left: 1110px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.komInContacth2{
+    font-size: 65px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.komIncctekst{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+
+
+
+
