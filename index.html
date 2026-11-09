@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batuhan Aydogan portofolio</title>
+    <title>Batuhan Aydogan Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll-animation.css">
 </head>
 
 <body>
+    <div id="progress"></div>
 
     <header>
         <nav>
             <ul>
-                <li> <a class="overMijBtn" href="#overMij">over mij</a></li>
+                <li> <a class="overMijBtn" href="#overMij">Over mij</a></li>
                 <li> <a class="mijnProjectenBtn" href="#mijnProjecten">Mijn Projecten</a></li>
-                <li> <a class="mijnSkillsSchoolBtn" href="#mijnSkillsSchool"> school & Skills</a></li>
-                <li> <a class="komInContactBtn" href="#komINContact">Kom in contact</a></li>
+                <li> <a class="mijnSkillsSchoolBtn" href="#mijnSkillsSchool"> School & Skills</a></li>
+                <li> <a class="komInContactBtn" href="#komInContact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
 
     <section id="home" class="hero">
         <div class="hero-container">
@@ -47,12 +48,8 @@
     </section>
 
     <section id="overMij" class="overMij">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="Titel-overMij">
-            <h2>Over mij</h2>
+        <div class="Titel-overmij">
+            <h2 class="Titel-overMij">over mij</h2>
         </div>
         <div class="Tekst-overMij">
             <P>
@@ -84,12 +81,14 @@
 
 
             <img src="Screenshot 2026-10-30 143648.png" alt="collage" class="collage" height="600">
+
         </div>
 
 
     </section>
 
     <section id=mijnProjecten class=mijnProjecten>
+
 
         <div class="titel-mijnProjecten">
 
@@ -141,47 +140,82 @@
         <div class="opleiding-titel">
             <h2>Opleiding</h2>
         </div>
-        <p class="opleiding-tekst">Ik ben begonnen met studeren op het startblok, een schiedamse
-            openbaar bassis school. van groep 1 tot en met 8. Dit school was de start van mijn
+        <p class="opleiding-tekst">Ik ben begonnen met studeren op het startblok. Een schiedamse
+            openbaare bassis school. van groep 1 tot en met 8. Dit school was de start van mijn
             'studieleven'. Het was een top school ik heb enorm genoten ervan. In groep 7 had ik
-            een advies van mavo en in groep 8 had ik een eind advies van kader/mavo. Deze eindadvies
-            heeft mij geleid tot De Mavo Vos waar ik 2 jaar had om te bewijzen dat ik de mavo niveau aankan.
-            in de eerste jaar was het zeker wennen, maar gelukkig in het tweede jaar was ik beland in de mavo klassen
+            een advies van mavo en in groep 8 had ik een eind advies van kader/mavo.<br><br> Deze eindadvies
+            heeft mij geleid tot De Mavo Vos waar ik 2 jaar had om te bewijzen dat ik de mavo niveau aankon.
+            in de eerste jaar was het zeker wennen, maar gelukkig in het tweede jaar was ik beland in de mavo klassen.
             in de 3de maakte ik voor het eerst een toetsweek mee wat mij liet zien dat eerder beginnen beter is dan
             later beginnen. Gelukkig heb ik wel de derde jaar kunnen behalen. In de vierde was het vooral
-            focus en concentratie. Met de focus en aandacht had ik mijn diploma behaald en wist ik gelijk Wat
+            focus en concentratie.<br><br> Met de focus en aandacht had ik mijn diploma behaald en wist ik gelijk Wat
             ik wilde doen met de behulp van de vak LOB. Ik kreeg dinegn over het coderen of in de kantoor met
             sales. Wat het ook was ik wilde achter de laptop werken waar ik alle werk op 1 plek kan maken.
             Dankzij mijn oom heb ik de juiste opleiding gekozen. Ik ben nu op het MBO en geniet van de lessen.
 
         </p>
 
+        
+        <iframe class="video"
+        width="400" height="300" src="https://www.youtube.com/embed/salY_Sm6mv4" 
+        title="HTML in 5 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+        </iframe>
+
 
 
 
     </section>
 
-    <section id="komInContact" class="komINContact">
+    <section id="komInContact" class="komInContact">
 
-        <div class=komInContacth2>
-            <h2>kom in<br>contact</h2>
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>Kom in<br>contact</h2>
+
+                <p>
+                    Leuk dat je in contact wilt komen met mij.<br>
+                    Vul hier je volledige naam, e-mailadres en bericht in.<br>
+                    Ik kijk ernaar uit om samen te werken. 
+                </p>
+            </div>
+
+            <form class="contact-form">
+
+                <div class="form-group">
+                    <label for="naam">Naam</label>
+                    <input type="text" id="naam" name="naam" placeholder="Naam" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mailadres</label>
+                    <input type="email" id="email" name="email" placeholder="E-mailadres" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="bericht">Bericht</label>
+                    <textarea id="bericht" name="bericht" placeholder="Bericht" required></textarea>
+                </div>
+
+                <button type="submit">Versturen</button>
+
+            </form>
+
         </div>
 
-        <div class="komIncctekst">
-            <p>Leuk dat je in contact wilt komen met mij.<br>
-                Vul hier je volledige naam, E-mail en je Bericht.<br>
-                Ik kijk ernaar uit om samen te werken.
-            </p>
-        </div>
-
-        <div class="E-mail"</div>
+    
+        
 
 
 
 
-
+    
     </section>
 
 </body>
 
 </html>
+
