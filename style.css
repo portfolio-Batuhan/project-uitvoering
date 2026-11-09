@@ -58,7 +58,6 @@ nav ul {
 }
 
 .mijnSkillsSchool {
-    margin-top: 80px;
     margin-left: 200px;
 }
 
@@ -201,14 +200,15 @@ a {
     border-radius: 12px;
 }
 
+
 .skills-titel {
-    margin-left: 175px;
+    margin-left: 0px;
     font-size: 30px
 }
 
 .opleiding-titel {
-    margin-left: 1055px;
-    margin-top: -420px;
+    margin-left: 600px;
+    margin-top: -430px;
     font-size: 30px;
 
 }
@@ -230,15 +230,26 @@ a {
     align-items: center;
     color: #2c2828;
     border-radius: 30px;
+    margin-left: -190px;
+    margin-right: 200px;
 }
 
 
 
 .opleiding-tekst {
     width: 30vw;
-    margin-left: 900px;
+    margin-left: 450px;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.video {
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -600px;
+    margin-bottom: 400px;
 }
 
 .komInContacth2 {
@@ -328,7 +339,7 @@ a {
 
 .contact-form button {
     padding: 15px;
-    background-color:#666;
+    background-color: #666;
     color: white;
     border: none;
     border-radius: 10px;
@@ -339,8 +350,3 @@ a {
 
 
 /* ---------------------------------------------------------------------- */
-
-
-.video{
-    
-}
